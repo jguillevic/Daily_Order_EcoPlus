@@ -14,14 +14,14 @@
 </head>
 
 <body>
-    <h1 class="text-center pt-3 pb-3">Ordre du daily Eco+</h1>
-    <div class="d-flex justify-content-center">
+    <h1 class="text-center pt-5 pb-5">Ordre du daily Eco+</h1>
+    <div class="d-flex flex-column justify-content-center">
 <?php
     $members = [ 'Jérôme', 'Christopher', 'Pierre', 'Brayan', 'Olivier', 'Corentin', 'Nathalie' ];
     shuffle($members);
     $order = 1;
     foreach ($members as $member) {
-        echo '<h2 class="text-center">' . $order . '. ' . $member . '</h2>';
+        echo '<p class="text-center">' . $order . '. ' . $member . '</p>';
         $order++;
     }
 ?>
