@@ -21,7 +21,7 @@
     shuffle($members);
     $order = 1;
     foreach ($members as $member) {
-        echo '<p class="h5 text-center">' . $order . '. ' . $member . '</p>';
+        echo '<p class="text-center">' . $order . '. ' . $member . '</p>';
         $order++;
     }
 ?>
